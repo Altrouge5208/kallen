@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="User Name" />
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Password" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/verifyButton"
+            android:onClick="verify"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:layout_column="1" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/backToHomeButton"
+            android:onClick="backToHome"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Back to home"
+            android:layout_column="1" />
+    </TableRow>
+
+</TableLayout>

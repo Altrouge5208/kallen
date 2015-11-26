@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:id="@+id/profile"
+        android:onClick="launchProfile" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Equipments"
+        android:id="@+id/equipments"
+        android:onClick="launchEquipments" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Knapsack"
+        android:id="@+id/knapsack"
+        android:onClick="launchKnapsack" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Shop"
+        android:id="@+id/shop"
+        android:onClick="launchShop" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Battle"
+        android:id="@+id/battle"
+        android:onClick="launchBettle"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Back to login"
+        android:id="@+id/backToLoginButton"
+        android:onClick="backToLogin"/>
+
+
+</LinearLayout>

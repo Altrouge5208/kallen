@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Dragon Slayer"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Return User"/>
+        <Button
+            android:id="@+id/signInButton"
+            android:onClick="launchLogin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:layout_column="1" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="New User" />
+        <Button
+            android:id="@+id/signUpButton"
+            android:onClick="launchSignUp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:layout_column="2" />
+    </TableRow>
+</TableLayout>

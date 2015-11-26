@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Profile" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Name" />
+        <EditText
+            android:id="@+id/heroName"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Occupation" />
+        <EditText
+            android:id="@+id/heroOccupation"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Level" />
+        <EditText
+            android:id="@+id/heroLevel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Skills" />
+        <EditText
+            android:id="@+id/heroSkills"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Fame" />
+        <EditText
+            android:id="@+id/heroFame"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Guild" />
+        <EditText
+            android:id="@+id/heroGuild"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+
+</TableLayout>
